@@ -52,5 +52,4 @@ def update_user_profile(username):
     return jsonify({'message': 'User profile updated successfully'}), 200
 
 if __name__ == '__main__':
-app.secret_key='secretivekeyagain'
     app.run(debug=True)
